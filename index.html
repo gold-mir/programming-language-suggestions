@@ -12,6 +12,46 @@
     <title>Programming Language Suggester</title>
   </head>
   <body>
+    <div class="container">
+      <form id="language-selector-quiz">
+        <div id="question-1" class="hidden">
+          <p>Which of the following are you interested in working on? Check all that apply</p>
+          <input type="checkbox" name="usage-question" value="ruby:1"> Interactive Web Applications <br>
+          <input type="checkbox" name="usage-question" value="java:2" id="android-apps-question"> Android Apps <br>
+          <input type="checkbox" name="usage-question" value="java:1,c#:1"> Complex Backend Programs <br>
+          <input type="checkbox" name="usage-question" value="java:1,c#:2"> Games <br>
+          <input type="submit" class="next-button" name="next" value="Next">
+        </div>
+        <div id="question-2" class="hidden">
+          <p>What kind of company do you want to work for?</p>
+          <input type="radio" name="company-question" value="c#:1"> A major tech company <br>
+          <input type="radio" name="company-question" value="ruby:1"> A web-based startup <br>
+          <input type="radio" name="company-question" value="java:1"> An app developer <br>
+          <input type="radio" name="company-question" value="ruby:2"> I want to develop web applications on my own <br>
+          <input type="submit" class="next-button" name="next" value="Next">
+        </div>
+        <div id="question-3" class="hidden">
+          <p>Do you have experience with any of the following languages? Check all that apply</p>
+          <input type="checkbox" name="experience-question" value="ruby:3"> Ruby <br>
+          <input type="checkbox" name="experience-question" value="java:3"> Java <br>
+          <input type="checkbox" name="experience-question" value="c#:3"> C# <br>
+          <input type="submit" class="next-button" name="next" value="Next">
+        </div>
+        <div id="question-4" class="hidden">
+          <p>Do you like it when there are multiple ways to do something that all work,
+            and the correct one is mostly determined by convention?</p>
+          <input type="radio" name="convention-question" value="ruby:1"> Yes <br>
+          <input type="radio" name="convention-question" value="java:1,c#:1"> No <br>
+          <input type="submit" class="next-button" name="next" value="Next">
+        </div>
+        <div id="question-5" class="hidden">
+          <p>Do you hate curly braces? These things: { }</p>
+          <input type="radio" name="convention-question" value="ruby:1"> Yes <br>
+          <input type="radio" name="convention-question" value=""> No <br>
+          <input type="submit" name="next" value="Done">
+        </div>
+      </form>
+    </div>
 
   </body>
 </html>

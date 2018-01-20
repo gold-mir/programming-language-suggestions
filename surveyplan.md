@@ -1,7 +1,7 @@
 ### Each survey answer has a weight and a language
 
 ### Which of the following are you interested in working on? (Check all that apply)
-  * Interactive Web Applications (+2 Ruby)
+  * Interactive Web Applications (+1 Ruby)
   * Android Apps (+1 Java)
   * Complex backend programs (+1 Java, +1 C#)
   * Games (+2 C# +1 Java)
@@ -24,7 +24,3 @@
 ### Do you like it when there are multiple ways to do something that all work, and the correct one is mostly determined by convention?
   * Yes (+1 Ruby)
   * No (+1 Java, +1 C#)
-
-### If Android Apps was selected in question 1: Is Android app development the primary thing you're interested in?
-  * Yes (Auto-suggest Java)
-  * No (no changes)
