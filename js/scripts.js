@@ -29,15 +29,16 @@ $(document).ready(function(){
         totals[answer[0]] += parseInt(answer[1]);
       });
     });
-
-    if(totals.ruby > totals.java && totals.ruby > totals.csharp){
-      $("#ruby-info").fadeIn();
-    } else if(totals.java > totals.csharp){
-      $("#java-info").fadeIn();
-    } else if(totals.csharp > totals.java){
-      $("#csharp-info").fadeIn();
-    } else {
-      $("#any-info").fadeIn();
-    }
+    $("#language-selector-quiz .form-question:last-child").fadeOut(function(){
+      if(totals.ruby > totals.java && totals.ruby > totals.csharp){
+        $("#ruby-info").fadeIn();
+      } else if(totals.java > totals.csharp){
+        $("#java-info").fadeIn();
+      } else if(totals.csharp > totals.java){
+        $("#csharp-info").fadeIn();
+      } else {
+        $("#any-info").fadeIn();
+      }
+    });
   });
 });
