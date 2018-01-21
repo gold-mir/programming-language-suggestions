@@ -1,3 +1,9 @@
 .hidden {
   display: none;
 }
+
+.form-question {
+  padding:1em;
+  width: 20em;
+  margin: auto;
+}

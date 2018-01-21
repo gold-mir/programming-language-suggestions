@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $(".form-question").hide();
 
   $(".next-button").click(function(){
     var currentQuestion = $(this).parent();

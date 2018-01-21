@@ -12,42 +12,42 @@
     <title>Programming Language Suggester</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container text-center">
       <form id="language-selector-quiz">
-        <div id="question-0" class="form-question">
+        <div id="question-0" class="form-question card">
           <p>Which of the following are you interested in working on? Check all that apply</p>
-          <input type="checkbox" name="usage-question" value="ruby:1"> Interactive Web Applications <br>
-          <input type="checkbox" name="usage-question" value="java:2" id="android-apps-question"> Android Apps <br>
-          <input type="checkbox" name="usage-question" value="java:1,csharp:1"> Complex Backend Programs <br>
-          <input type="checkbox" name="usage-question" value="java:1,csharp:2"> Games <br>
-          <button type="button" class="next-button" fade-target="#question-1">Next</button>
+          <label><input type="checkbox" name="usage-question" value="ruby:1"> Interactive Web Applications </label>
+          <label><input type="checkbox" name="usage-question" value="java:2" id="android-apps-question"> Android Apps </label>
+          <label><input type="checkbox" name="usage-question" value="java:1,csharp:1"> Complex Backend Programs </label>
+          <label><input type="checkbox" name="usage-question" value="java:1,csharp:2"> Games </label>
+          <button type="button" class="next-button">Next</button>
         </div>
-        <div id="question-1" class="hidden form-question">
+        <div id="question-1" class="form-question card">
           <p>What kind of company do you want to work for?</p>
-          <input type="radio" name="company-question" value="csharp:1"> A major tech company <br>
-          <input type="radio" name="company-question" value="ruby:1"> A web-based startup <br>
-          <input type="radio" name="company-question" value="java:1"> An app developer <br>
-          <input type="radio" name="company-question" value="ruby:2"> I want to develop web applications on my own <br>
+          <label><input type="radio" name="company-question" value="csharp:1"> A major tech company </label>
+          <label><input type="radio" name="company-question" value="ruby:1"> A web-based startup </label>
+          <label><input type="radio" name="company-question" value="java:1"> An app developer </label>
+          <label><input type="radio" name="company-question" value="ruby:2"> I want to develop web applications on my own </label>
           <button type="button" class="next-button">Next</button>
         </div>
-        <div id="question-2" class="hidden form-question">
+        <div id="question-2" class=" form-question card">
           <p>Do you have experience with any of the following languages? Check all that apply</p>
-          <input type="checkbox" name="experience-question" value="ruby:3"> Ruby <br>
-          <input type="checkbox" name="experience-question" value="java:3"> Java <br>
-          <input type="checkbox" name="experience-question" value="csharp:3"> C# <br>
+          <label><input type="checkbox" name="experience-question" value="ruby:3"> Ruby </label>
+          <label><input type="checkbox" name="experience-question" value="java:3"> Java </label>
+          <label><input type="checkbox" name="experience-question" value="csharp:3"> C# </label>
           <button type="button" class="next-button">Next</button>
         </div>
-        <div id="question-3" class="hidden form-question">
+        <div id="question-3" class="form-question card">
           <p>Do you like it when there are multiple ways to do something that all work,
             and the correct one is mostly determined by convention?</p>
-          <input type="radio" name="convention-question" value="ruby:1"> Yes <br>
-          <input type="radio" name="convention-question" value="java:1,csharp:1"> No <br>
+          <label><input type="radio" name="convention-question" value="ruby:1"> Yes </label>
+          <label><input type="radio" name="convention-question" value="java:1,csharp:1"> No </label>
           <button type="button" class="next-button">Next</button>
         </div>
-        <div id="question-4" class="hidden form-question">
+        <div id="question-4" class="form-question card">
           <p>Do you hate curly braces? These things: { }</p>
-          <input type="radio" name="syntax-question" value="ruby:1"> Yes <br>
-          <input type="radio" name="syntax-question" value=""> No <br>
+          <label><input type="radio" name="syntax-question" value="ruby:1"> Yes </label>
+          <label><input type="radio" name="syntax-question" value=""> No </label>
           <input type="submit" value="Done">
         </div>
       </form>
@@ -62,7 +62,7 @@
         YOU SHOULD LEARN RUBY
       </div>
       <div id="any-info" class="hidden">
-        Idk do whatever 
+        Idk do whatever
       </div>
 
     </div>
