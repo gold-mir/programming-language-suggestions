@@ -1,6 +1,11 @@
 $(document).ready(function(){
   $(".form-question").hide();
 
+  $("#start-quiz").click(function(){
+    $("#start-quiz").hide();
+    $("#question-0").fadeIn();
+  });
+
   $(".next-button").click(function(){
     var currentQuestion = $(this).parent();
     currentQuestion.fadeOut('fast', function(){
