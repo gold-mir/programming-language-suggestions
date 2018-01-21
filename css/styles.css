@@ -18,6 +18,15 @@
   margin-top: 1em;
 }
 
+.result p {
+  font-style: italic;
+  font-size: .9em;
+}
+
+.result h3 {
+  color: green;
+}
+
 .reminder {
   font-size: .8em;
   color: grey;

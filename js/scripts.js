@@ -1,8 +1,9 @@
 $(document).ready(function(){
-  $(".form-question").hide();
+  $(".form-question, #redo").hide();
 
-  $("#start-quiz").click(function(){
-    $("#start-quiz").hide();
+  $(".start-quiz").click(function(){
+    $(".result").hide();
+    $(".start-quiz").hide();
     $("#question-0").fadeIn();
   });
 
@@ -39,6 +40,7 @@ $(document).ready(function(){
       } else {
         $("#any-info").fadeIn();
       }
+      $("#redo").show();
     });
   });
 });
