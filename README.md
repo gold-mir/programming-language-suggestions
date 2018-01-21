@@ -1,5 +1,5 @@
 # Programming Language Suggestion Survey
-#### By Miranda Keith
+#### By Miranda Keith *(miranda.keith.42@gmail.com)*
 > This project is a website that has the user take a survey about their goals and suggests them a programming language to learn based on the results.
 
 ## Setup
